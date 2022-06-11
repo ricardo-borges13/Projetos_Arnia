@@ -1,0 +1,9 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: azure;
+    }
+
+div{
+    padding: 10px;
+    line-height: 30px;
+}          
