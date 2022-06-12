@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(102, 100, 100);
+    color: #800000 ;
+}
+
+section{
+    width: 500px;
+    margin: 0 auto;
+    box-shadow:5px 5px 10px black;
+    background-color: rgb(236, 235, 235);   
+}
+
+#cliente ,#proprietario{
+  display: inline-block; 
+  padding: 30px;
+  margin-left: 15px;
+}
+
+
+
+h1{
+    color: #800000 ;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px rgb(141, 138, 138);
+    text-align: center;
+}
+
+
+.produtos h1{
+   text-align: left;
+   background-color: #0c0c0c;  
+}
+
+.produtos p {
+    padding-left: 20px;
+    
+ }
+
+.menu{
+    padding: 20px;
+    font-size: 24px;
+}
+.menu a{    
+    color: #800000;
+}
+
+li{
+    list-style-type: none;
+    padding: 20px;    
+}
+
+p{
+    font-size: 16px;
+    }
+
+.imagem{
+    border-radius: 100px;
+    padding-left: 20px;
+}
+
+
+.formulario{
+    padding: 20px;
+}  
+
+.list_cardapio{
+    padding-left: 20px;
+}
+
+.list_item h1{
+    font-size: 32px;
+}
+.list_item li a{
+    font-size: 24px;
+    color: #800000 ;
+}
+
+
+.voltar{
+    color: #808080;
+    font-weight: bold;
+  }
+
+.novoItem{
+    background-color: #800000;
+    color: white;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    margin-left: 50px;
+    
+}

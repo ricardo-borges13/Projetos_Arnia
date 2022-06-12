@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Cliente</title>
+
+    <link rel="stylesheet" href="css/finalizar_pedido.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="voltar"> <a href="fazer_pedido.html">Voltar</a></div>   
+            <div class="imagem-menu">                
+                <img class="img" src="imagens/restaurante.png" alt="Foto Restaurante" title="Foto Restaurante"> 
+                             
+            </div>
+
+        </header>  
+            
+                <div class="principal"> 
+                     <section class="conteudo">
+                            <h2>Valor: R$ 56,00</h2>
+                            <form action="">
+                                <label for="pgto">Forma de Pagamento</label><br>
+                                <select name="prato" id="id"><br>
+                                    <option value="1">Dinheiro</option>
+                                    <option value="2" selected>Cartão Crédito</option>
+                                    <option value="3">Cartão Débito</option>
+                                </select><br><br>
+
+
+                                <label for="ncartao">Número do Cartão:</label> <br>
+                                <input type="text" name="nome" id="nome"> <br><br>
+                               
+                                
+                                
+                               <label for="bebida">CVV</label><br>
+                                <input type="text" name="cvv" id="cvv"> <br><br>
+                                <label for="quantidade">Quantidade:</label><br>
+                                <input type="date" name="vencimento" id="vencimento">
+                               
+                            
+                            </form>
+                            
+                        </section>
+                </div>
+                <br>
+                <div class="fazerPedido">
+                    <br>
+                    <a href="pedido_concluido.html">Finalizar Pedido</a> 
+                </div>
+
+            
+</main> 
+</body>
+</html>

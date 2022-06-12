@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Cardápio</title>
+
+    <link rel="stylesheet" href="css/principal.css">
+</head>
+<body>
+    <section>
+        <h1>Cadastrar Cardápio</h1>
+
+        <form class = "formulario" method = "post" action="">
+            <label for="nome">Nome:</label> <br>
+            <input type="text" name="nome" id="nome"> <br>
+            <label for="descricao">Descrição</label> <br>
+            <textarea name="desc" id="desc" cols="21" rows="3"></textarea> <br>
+            <label for="ativo">Ativo?</label> <br>
+            <input type="radio" name="ativo" id="sim" checked>
+            <label for="sim">Sim</label> <br>
+            <input type="radio" name="ativo" id="nao">
+            <label for="nao">Não</label> 
+            <hr>
+
+            <h3>Produtos</h3>
+
+            <label for="p1">Produto 1:</label> <br>
+            <select name="tipo" id="tipo">
+                <option value="1">Escolha</option>
+                <option value="2"></option>
+            </select> <br>
+            <label for="valor">Valor:</label> <br>
+            <input type="number" name="val1" id="val1"> <br>
+            <p></p>
+            <label for="p2">Prato 2:</label> <br>
+            <select name="tipo" id="tipo">
+                <option value="1">Escolha</option>
+                <option value="2"></option>
+            </select> <br>
+            <label for="valor">Valor:</label> <br>
+            <input type="number" name="val2" id="val2"> <br>
+            <hr>
+
+            <h3>Bebidas</h3>
+
+            <label for="p1">Bebida 1:</label> <br>
+            <select name="tipo" id="tipo">
+                <option value="1">Escolha</option>
+                <option value="2"></option>
+            </select> <br>
+            <label for="valor">Valor:</label> <br>
+            <input type="number" name="vbeb1" id="vbeb1"> <br>
+            <p></p>
+            <label for="p2">Bebida 2:</label> <br>
+            <select name="tipo" id="tipo">
+                <option value="1">Escolha</option>
+                <option value="2"></option>
+            </select> <br>
+            <label for="valor">Valor:</label> <br>
+            <input type="number" name="vbeb2" id="vbeb2"> <br>
+            <p></p>
+            <input type="submit" value="Envir">
+
+        </form>
+        <a class="voltar" href="lista_cardapio.html">Voltar</a>
+    </section>
+    
+</body>
+</html>

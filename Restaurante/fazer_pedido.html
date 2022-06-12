@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Cliente</title>
+
+    <link rel="stylesheet" href="css/fazer_pedido.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="voltar"> <a href="cardapio_cliente.html">Voltar</a></div> 
+            <div class="imagem-menu">                
+                <img class="img" src="imagens/restaurante.png" alt="Foto Restaurante" title="Foto Restaurante"> 
+                             
+            </div>
+
+        </header>  
+              
+                <div class="principal"> 
+                     <section class="conteudo">
+                            <h2>Dados Cadastrais</h2>
+                            <form action="">
+                                <label for="nome">Nome:</label> <br>
+                                <input type="text" name="nome" id="nome"> <br><br>
+                                <label for="endereco">Endereço completo:</label><br>
+                                <textarea name="endereco" id="endereco" cols="20" rows="3"></textarea> <br>
+                                <hr>
+                                <h3>Prato</h3>
+                                <label for="prato">Prato</label><br>
+                                <select name="prato" id="id"><br>
+                                    <option value="1">X-burguer</option>
+                                    <option value="2" selected>X-tudo</option>
+                                    <option value="3">Pastel</option>
+                                </select><br><br>
+                                <label for="quantidade">Quantidade:</label><br>                                
+                               <input type="number" name="qtd" id="qtd"><br>
+                               <br>                               
+                               <h3>Bebida</h3>
+                               <label for="bebida">Bebida</label><br>
+                                <select name="bebida" id="id"><br>
+                                    <option value="1">Água</option>
+                                    <option value="2" selected>Refrigerante</option>
+                                    <option value="3">Suco Laranja</option>
+                                </select><br><br>
+                                <label for="quantidade">Quantidade:</label><br>
+                               <input type="number" name="qtd" id="qtd"><br>
+                            
+                            </form>
+                            
+                        </section>
+                </div>
+                
+                <div class="fazerPedido">
+                    <br>
+                    <a href="finalizar_pedido.html">Efetuar Pagamento</a> 
+                </div>
+
+            
+</main> 
+</body>
+</html>

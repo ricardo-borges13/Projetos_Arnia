@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #800000 ;
+}
+
+main{
+    width: 600px;
+    height: 750px;
+    margin: 0 auto;
+    box-shadow: 0 0 30px #333;
+    background-color: rgb(250, 246, 186);  
+    
+}
+
+header{
+    width: 600px;
+    height: 120px;
+    background-color: rgb(250, 246, 186);    
+    
+}
+
+.principal{
+   background-color: rgb(250, 246, 186);
+    width: 470px;
+    height: auto; 
+    margin-top: 10px;
+    margin: 0 auto;
+    
+}
+
+.conteudo{
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.conteudo form{
+    padding: 1px;
+}
+
+
+img{
+    height: 130px;
+    width: 130px;     
+} 
+
+.imagem-menu{
+    padding-left: 250px;
+    padding-bottom: 150px;
+    height: -10px;
+}
+
+.fazerPedido{
+    background-color: rgb(250, 246, 186);
+    width: 470px;
+    height: 10px;
+    margin: 0 auto;
+    
+}
+.fazerPedido a{
+    color: red;
+   padding-left: 120px;
+   font-size: 28px;   
+   font-weight: bold;
+}
+
+.voltar{
+    color: #808080;
+    font-weight: bold;
+    width: 20px;
+    margin: 0 auto;
+  }

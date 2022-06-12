@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #800000 ;
+}
+
+main{
+    width: 960px;
+    height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 30px #333;
+    background-color: white;
+    
+}
+
+header{
+    width: 960px;
+    height: 120px;
+    background-color: rgb(250, 246, 186);    
+    
+}
+
+.prato{
+   background-color: rgb(250, 246, 186);
+    float: left;
+    width: 490px;
+    height: auto; 
+    
+    
+}
+
+.conteudo{
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+.bebida{
+    background-color: rgb(250, 246, 186);
+    float: right;
+    width: 470px;
+    height: auto;    
+}
+
+img{
+    height: 130px;
+    width: 130px;     
+} 
+
+.imagem-menu{
+    padding-left: 418px;
+    padding-bottom: 150px;
+    height: -10px;
+}
+
+.fazerPedido{
+    background-color: rgb(250, 246, 186);
+    clear: both;
+    height: 80px;    
+}
+
+.fazerPedido a{
+    color: red;
+   padding-left: 410px;  
+   font-size: 28px;
+   font-weight: bold;  
+}
+
+.voltar{
+    color: #808080;
+    font-weight: bold;
+    width: 30px;
+    margin: 0 auto;
+  }

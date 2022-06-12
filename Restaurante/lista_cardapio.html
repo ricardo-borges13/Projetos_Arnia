@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/lista_cardapios.css">
+</head>
+<body>
+    <section class="list_item">
+        <h1>Listar Cardápios</h1>
+
+          <div class="novoItem" id="botao"  onmouseenter="entrar()" onmouseout="saiu()" onclick="clicar()"> <a id="ref" href="cadastro_cardapio.html" onmouseenter="entrar()" >Novo Cardápio</a> </div> 
+
+        <div>
+           <ul>
+               <li><a href="cardapio_padrao.html">Cardápio Padrão</a></li>
+               <li><a href="cardapio_fim_de_semana.html">Cardápio Fim de Semana</a></li>
+          </ul>         
+        </div>
+        <a class="voltar" href="proprietario.html">Voltar</a>
+    </section> 
+    
+    <script>
+      var a = window.document.getElementById('botao')
+      var ref = document.getElementById('ref')
+      function entrar() {            
+        ref.style.background = 'black'
+        ref.style.color = 'white'
+        a.style.background = 'black'
+        a.style.color = 'white'
+        
+       }
+
+       function saiu() {            
+        a.style.background = '#800000'   
+        ref.style.background = '#800000'  
+       }
+
+      
+
+    </script>
+        
+</body>
+</html>

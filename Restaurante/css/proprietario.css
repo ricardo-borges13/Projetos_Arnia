@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(102, 100, 100);
+    color: #800000 ;
+}
+
+#itens, #cardapios{
+    display: inline-block;  
+}
+#itens{
+    padding-left: 80px;
+    padding-right: 70px;
+}
+
+h1{
+    color: #800000 ;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px rgb(141, 138, 138);
+    text-align: center;
+}
+
+section{
+    width: 500px;
+    margin: 0 auto;
+    box-shadow:5px 5px 10px black;
+    background-color: rgb(236, 235, 235);   
+}
+
+.menu{
+    padding: 20px;
+    font-size: 24px;
+    
+}
+.menu a{    
+    color:black;
+    list-style-type: none; /* Não consegui tirar o sublinhado da palavra Itens e Cardápio */
+}
+
+#voltar{
+    background-color: rgb(236, 235, 235);
+    width: 500px;
+    margin: 0 auto;
+    box-shadow:5px 10px 10px black;
+}
+.voltar{
+    color: #808080;
+    font-weight: bold;
+  }
+
+
