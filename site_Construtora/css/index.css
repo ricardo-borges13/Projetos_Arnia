@@ -1,19 +1,16 @@
 *{
     padding: 0;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 body{   
     background-color: white;    
     padding-left: 22px;
-    font: normal 20px arial;
-    
+    font: normal 20px arial;    
 }
 
 nav{
-    font: bold 18px Roboto;
-    
+    font: bold 18px Roboto;    
 }
 
 nav ul{
@@ -59,19 +56,16 @@ nav ul li:hover ul{
     width: 100%;
 }
 
-
-
 #grupo{
     width: 1400px;
     margin: 0 auto;
     padding: 50px;
-    margin-bottom: 50px;
-   
+    margin-bottom: 50px;   
 }
-.texto{
-   
+
+.texto{   
     padding: 25px;
-    width: 400px;
+    width: 397px;
     height: 150px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -79,18 +73,16 @@ nav ul li:hover ul{
     color: #808080;
     }
 
-    .titulo{
-        font-size: 25px;
-        text-align: left;
-        font-weight: bold;
-        color:#188be9;   
+.titulo{
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    color:#188be9;   
     }
 
 #id1, #id2, #id3{
-    display: inline-block;   
+ display: inline-block;   
 }
-
-
 
 footer{
    clear: both;
@@ -98,8 +90,7 @@ footer{
     color:white;
     padding: 70px;
     font-size: 20px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .texto:hover{
