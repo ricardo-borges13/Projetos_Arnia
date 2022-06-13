@@ -97,3 +97,42 @@ footer{
     background-color: #f3f3f3;
     border-radius: 2%;
 }
+
+@media screen and (max-width:667px){
+ 
+    
+    body{
+        height:477px ;
+    }
+    #grupo{
+        display: inline-grid;
+        width: 80px;
+        padding: 1px;
+        
+    }
+    nav{
+      
+    }
+    nav ul{
+        text-align: left;
+    }
+    nav ul li{
+        display: block;
+        left: 0%;
+        
+    }
+    .sub-menu{
+        margin-left: 100px;
+        display: none;
+    }
+    .sub-menu li{
+     
+       
+   }
+
+   nav ul li:hover ul{
+    display: block;   
+   }
+
+  
+}
