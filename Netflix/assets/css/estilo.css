@@ -7,24 +7,199 @@ body{
    
 }
 
-.container{
-    max-width: 1200px important;
+.bloco-topo{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%,rgba(224, 224, 224, 0) 50%,rgba(0, 0, 0, 1) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/25badb14-858b-4b1c-8b7d-2244098454d9/61216e4c-b2b3-40e1-85d6-2b13eb86ef2b/BR-pt-20220606-popsignuptwoweeks-perspective_alpha_website_medium.jpg) center center no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
 }
+
+.container{
+    max-width: 1500px important;    
+}
+
+.img-netflix{
+    height: 60px;
+    width: 200px;
+}
+.lado-esquerdo{
+    padding: 30px;
+}
+.lado-direito{
+    padding: 30px;    
+}
+
+.titulo1 h2{
+    font-size: 70px;
+}
+.subtitulo1{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.subtitulo2{
+    text-align: center;
+}
+.subtitulo2 h3{
+    font-size: 20px;
+    color: white;
+}
+.lado-direito select{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    height: 50px;
+    width: 160px;
+    border-radius: 2px;
+    font-size: 22px;
+    text-align: right;
+    
+}
+.entrar{
+    background-color: #e50914;
+    color:white;
+    border-radius: 5px;
+    border: 1px solid #E50914;
+    height: 50px;
+    width: 120px;
+    font-size:25px;
+    
+   }
+.portugues-ingles{
+    position: relative;
+    padding-right: 50px;
+}
+.globo{
+    position: absolute;
+    right: 190px;
+    bottom: 27px;   
+}
+
+.imagem{
+    height: 400px;
+    width: 730px;
+}
+
 .bloco{
     border-bottom: 5px solid#555;
     padding: 30px 0px;
 }
 .bloco .titulo{
-    font-size: 45px;
+    font-size: 75px;
     font-weight: 600;
     }
 
 .bloco .chamada{
-   font-size: 20px;
+    font-size: 35px;
 }    
 
-.img-fluid{
+.titulo2{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
     
+}
+
+.menu ul li{
+    list-style-type: none;
+    font-size: 40px;
+    background-color: #303030;
+    margin-bottom: 13px;
+    padding: 22px;
+    padding-left: 45px;  
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;    
+} 
+
+.sub-menu{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grupo_email{
+  padding-left: 150px;
+}
+.grupo_email2{
+    text-align: center;
+    padding: 50px;    
+}
+
+#email{
+    height: 90px;
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid white;   
+    padding-top: 9px;
+}
+.botao{
+    background-color: #E50914;
+    border: 1px solid #E50914;    
+    color: white;    
+    font-size: 35px; 
+    height: 90px;
+    width: 280px;       
+}
+
+.menu-duvida ul li{
+    list-style-type: none;
+   
+    padding: 12px;    
+}
+
+.menu-duvida ul li a{
+    color: #757575;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+h3{
+    color: #757575;
+    font-size: 23px;
+    margin-left: 400px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+
+.portugues{
+    position: relative;
+}
+
+.globo2{
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color: #757575;
+    font-size: 23px;
+}
+.portugues select{     
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 120px;
+        border-radius: 2px;
+        width: 200px;
+        height: 70px;
+        color: #757575;
+        text-align: right;
+        font-size: 25px;
+}
+
+.brasil{
+    padding-top: 30px;
+    color: #757575;
+    font-size: 19px; 
+    margin-left: 50px;
+}
  
-    
+.mais{
+    float: right;
+    font-size: 90px;
+  line-height: 71px;
+  font-weight: 100;
 }
